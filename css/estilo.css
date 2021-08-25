@@ -1,0 +1,165 @@
+@font-face{
+  font-family: 'Fonte1';
+  src: url(../fonts/computer-font.ttf);
+}
+
+@font-face { 
+  font-family: 'Fonte2'; 
+  src: url(../fonts/ka1.ttf); 
+  font-weight: normal; 
+  }
+
+/* Formatação Geral*/
+
+* {
+  margin:0;
+  padding:0;
+}
+    
+.pagina {
+  width: auto; 
+  background-color: #D5DFE7;
+  height: auto; 
+  padding: 20px;
+}
+
+.meu h1{
+  padding-top: 0px;
+  font-family: 'Fonte1';
+  font-size: 25px;
+}
+
+.meu {
+  font-family: 'Fonte2';
+  font-size: 16px;
+  font-style: italic;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.fundo {
+  background-image: url(../imagens/ceu-estrelado.png);
+}  
+
+.direita {
+  float:right;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+   
+ul {
+  margin: auto;
+  margin-left: 30px;
+}
+
+#footer {
+  color: rgb(45, 195, 236);
+  font-size: 14px;
+  padding-bottom: 10PX;
+  padding-top: 20px;
+  background-color: #000000;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*Index CSS*/
+
+.indexh2 {
+  text-align: center;
+  font-family: 'Fonte1';
+  color: #4074AE;
+  font-size: 35px;
+}
+
+.indexh3 {
+  color: #AB866E;
+  font-family: 'Fonte2';
+  font-size: 20px;
+  text-align: center;
+}
+
+.indexp {
+  color: #AB866E;
+  text-indent: 1em;
+  font-size: 15px;
+}
+
+.comentario {
+  width: auto;
+  height: auto;
+  background-color: #DEDDE4;
+  padding: 20px 0;
+  float: center;
+  text-align: center;
+  border: 2px dotted #B8815A;
+}
+
+/* Formulario CSS */
+
+.formulario{
+  background-color: #AB866E;
+  width: 400px;
+  padding: 30px;
+  border:1px solid #ccc;
+  border-radius: 15px;
+}
+.formulario p{
+  width: 100%;
+  font-size: 1.5em;
+}
+.field{
+  width: 100%;
+  margin: 15px 0;
+}
+.field label, 
+.field span{
+  padding-left: 10px;
+  font-size: 1.1em;
+  display: block;
+  width: 100%;
+}
+.radiobox label{
+  width: auto;
+  display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+input#nao{
+  margin-left: 30px;
+}
+textarea{
+  line-height: 20px;
+  padding: 10px;
+  height: 90px;
+  resize: none;
+}
+input[type=submit]{
+  display: block;
+  background-color: #ccc;
+  height: 35px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+}
+
+/* CSS MUSICAS */
+
+.muh3 {
+  color: #AB866E;
+  font-family: 'Fonte2';
+  font-size: 15px;
+  margin-left: 20px;
+}
