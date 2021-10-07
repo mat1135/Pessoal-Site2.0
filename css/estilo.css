@@ -23,6 +23,19 @@
   padding: 20px;
 }
 
+.nome{
+  color: #2DC3EC;
+  font-size: 40pt; 
+  margin-left: 30px; 
+  margin-top: 10px;
+}
+.frase{
+  color: #AB866E;
+  font-style: italic;
+  margin-top: 25px;
+  margin-left: 200px;
+}
+
 .meu h1{
   padding-top: 0px;
   font-family: 'Fonte1';
