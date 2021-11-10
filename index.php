@@ -1,3 +1,9 @@
+<?php
+$sql = "SELECT * FROM comentarios";
+$conexao = new PDO('mysql:host=127.0.0.1;dbname=pessoal','root','');
+$resultado = $conexao->query($sql);
+$lista = $resultado->fetchAll();
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -120,8 +126,12 @@
             <h2 class="indexh2">Comentarios</h2>
             <div id="main3">
                 <div class="comentario">
-                    <p>Aqui entrara um comentario</p>
-                    <h4>Nome do aluno</h4>
+                <?php foreach ($lista as $linha): ?>
+		            	<div class="balao">
+                  <h4 class="indexh3"><?php echo $linha['nome'] ?> - <?php echo $linha['turma'] ?></h4>
+			          	<p class="indexp"><?php echo $linha['comentario'] ?></p>			 	
+		          	</div>
+               <?php endforeach ?>
                 </div>
                 <div class="comentario">
                     <p>Aqui entrara um comentario</p>
